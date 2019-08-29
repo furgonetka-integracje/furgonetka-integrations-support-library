@@ -2,6 +2,7 @@
     "name": "furgonetka-integracje/furgonetka-integrations-support-library",
     "description": "Biblioteka pomocnicza do integracji z Furgonetka.pl",
     "type": "library",
+    "version": "0.1",
     "extra": {
         "zf": {
             "config-provider": "\\Integrations\\ConfigProvider"
