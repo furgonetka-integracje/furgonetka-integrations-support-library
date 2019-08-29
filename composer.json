@@ -1,0 +1,25 @@
+{
+    "name": "furgonetka-integracje/furgonetka-integrations-support-library",
+    "description": "Biblioteka pomocnicza do integracji z Furgonetka.pl",
+    "type": "library",
+    "extra": {
+        "zf": {
+            "config-provider": "\\Integrations\\ConfigProvider"
+        }
+    },
+    "require": {
+        "zendframework/zend-component-installer": "^2.1",
+        "zendframework/zend-servicemanager": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "FurgonetkaIntegrationsSupport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artur Miętek",
+            "email": "artur.mietek@furgonetka.pl"
+        }
+    ]
+}
